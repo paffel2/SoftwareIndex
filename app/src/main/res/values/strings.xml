@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Реестр ЭВМ кафедры</string>
+    <string name="app_subtitle">Учет оборудования в аудиториях</string>
+
+    <!-- Stats -->
+    <string name="stat_rooms_title">Аудиторий</string>
+    <string name="stat_pcs_title">Всего ЭВМ</string>
+    <string name="stat_avg_title">Среднее на класс</string>
+
+    <!-- Search and Filter -->
+    <string name="search_hint">Поиск по классу, кафедрам или ТТХ…</string>
+    <string name="sort_by_room_and_count">№ класса и кол-во ЭВМ</string>
+    <string name="sort_by_room">По номеру класса</string>
+    <string name="sort_by_count_desc">Макс. ЭВМ (▼)</string>
+    <string name="sort_by_count_asc">Мин. ЭВМ (▲)</string>
+
+    <!-- List Item -->
+    <string name="room_format">Аудитория %s</string>
+    <string name="pcs_count_format">%d ЭВМ</string>
+    <string name="specs_label">Характеристики ЭВМ:</string>
+    <string name="department_default">Кафедра не указана</string>
+    <string name="btn_edit_short">Изм.</string>
+    <string name="btn_delete_short">Уд.</string>
+
+    <!-- Details Labels -->
+    <string name="detail_pc_count_label">Установлено ЭВМ:</string>
+    <string name="detail_specs_label">Характеристики оборудования:</string>
+    <string name="detail_dept_label">Подразделение / Кафедра:</string>
+    <string name="detail_notes_label">Назначение / Примечания:</string>
+
+    <!-- Dialogs and Inputs -->
+    <string name="title_add_room">Добавить аудиторию</string>
+    <string name="title_edit_room">Редактировать аудиторию</string>
+    <string name="title_details_room">Сведения об аудитории</string>
+    <string name="title_add_department">Добавить кафедру</string>
+    <string name="title_add_computer">Добавить ЭВМ в класс</string>
+    <string name="title_edit_computer">Редактировать ЭВМ</string>
+    <string name="title_computers_in_room">Перечень ЭВМ в аудитории</string>
+
+    <string name="hint_room_number">Номер класса / аудитории (напр., 210 или 402-а)</string>
+    <string name="hint_computer_count">Количество ЭВМ</string>
+    <string name="hint_specs">Характеристики ЭВМ (Процессор, ОЗУ, Накопитель, ОС)</string>
+    <string name="hint_department">Выберите кафедру из базы данных</string>
+    <string name="hint_department_name">Название кафедры (напр. Кафедра ПО)</string>
+    <string name="hint_department_notes">Описание / Расшифровка кафедры</string>
+    <string name="hint_notes">Назначение / Дополнительно</string>
+
+    <string name="hint_comp_name">Название / № ПК (напр., ПК Преподавателя)</string>
+    <string name="hint_comp_inv_num">Инвентарный номер (напр., ИНВ-10101)</string>
+    <string name="hint_comp_specs">Характеристики ЭВМ (ЦП, ОЗУ, SSD/HDD, ГПУ)</string>
+    <string name="hint_comp_status">Статус оборудования</string>
+
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_close">Закрыть</string>
+    <string name="btn_reset_data">Сбросить к тестовым данным</string>
+    <string name="btn_add_computer">Добавить ЭВМ в класс</string>
+    <string name="action_add_department">Добавить кафедру</string>
+
+    <string name="confirm_delete_title">Удаление записи</string>
+    <string name="confirm_delete_msg">Вы уверены, что хотите удалить аудиторию №%s (%d ЭВМ)?</string>
+    <string name="confirm_delete_comp_msg">Вы уверены, что хотите удалить «%s»?</string>
+
+    <string name="toast_room_added">Аудитория успешно добавлена</string>
+    <string name="toast_room_updated">Данные обновлены</string>
+    <string name="toast_room_deleted">Запись удалена</string>
+    <string name="toast_department_added">Кафедра успешно добавлена</string>
+    <string name="toast_computer_added">ЭВМ успешно добавлена в класс</string>
+    <string name="toast_computer_updated">Данные ЭВМ обновлены</string>
+    <string name="toast_computer_deleted">ЭВМ удалена из класса</string>
+    <string name="toast_data_reset">База данных сброшена к тестовым значениям</string>
+
+    <string name="error_empty_fields">Пожалуйста, заполните номер класса</string>
+    <string name="error_empty_comp_name">Введите название / № ЭВМ</string>
+    <string name="error_invalid_count">Введите корректное число ЭВМ</string>
+    <string name="error_empty_dept_name">Введите название кафедры</string>
+    <string name="error_no_departments">В базе нет кафедр. Сначала добавьте хотя бы одну кафедру.</string>
+    <string name="error_select_dept">Пожалуйста, выберите кафедру из списка</string>
+
+    <string name="empty_list_title">Записи не найдены</string>
+    <string name="empty_list_subtitle">Нажмите «+» для добавления новой аудитории или сбросьте фильтры поиска.</string>
+    <string name="empty_computers_title">В этом классе еще нет ЭВМ</string>
+    <string name="empty_computers_subtitle">Нажмите кнопку «Добавить ЭВМ в класс», чтобы внести компьютеры оборудования.</string>
+</resources>

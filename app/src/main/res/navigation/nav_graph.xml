@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Граф навигации Jetpack Navigation между экранами приложения -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ClassroomListFragment">
+
+    <!-- Главный экран: Список всех классов / аудиторий -->
+    <fragment
+        android:id="@+id/ClassroomListFragment"
+        android:name="com.softwareindex.ClassroomListFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_classroom_list">
+
+        <!-- Переход от списка классов к детальному экрану аудитории -->
+        <action
+            android:id="@+id/action_ClassroomListFragment_to_ClassroomDetailFragment"
+            app:destination="@id/ClassroomDetailFragment" />
+    </fragment>
+
+    <!-- Экран деталей класса: Сведения и перечень ЭВМ аудитории -->
+    <fragment
+        android:id="@+id/ClassroomDetailFragment"
+        android:name="com.softwareindex.ClassroomDetailFragment"
+        android:label="@string/title_details_room"
+        tools:layout="@layout/fragment_classroom_detail">
+
+        <!-- Передаваемый аргумент ID аудитории -->
+        <argument
+            android:name="classroom_id"
+            app:argType="long" />
+    </fragment>
+</navigation>
